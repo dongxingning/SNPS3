@@ -1,6 +1,11 @@
 # Shared Network Pre-training and Significant Semantic Strengthening for Various Video-Text Tasks (Pytorch)
 
-This repository contains the codebase for our paper [SNP-S3: Shared Network Pre-training and Significant Semantic Strengthening for Various Video-Text Tasks](), which has been accepted by TCSVT.
+This repository contains the codebase for our paper [SNP-S3: Shared Network Pre-training and Significant Semantic Strengthening for Various Video-Text Tasks](https://ieeexplore.ieee.org/document/10214396), which has been accepted by TCSVT.
+
+## News !!!
+
+* The codebase are now available at [SNP-S3-VTP](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_en.md).
+* If you have any questions about SNP-S3, it is recommended to raise your questions at [AntMMF](https://github.com/alipay/Ant-Multi-Modal-Framework) project.
 
 ## What is SNP-S3?
 
