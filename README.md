@@ -9,7 +9,9 @@ This repository contains the codebase for our paper [SNP-S3: Shared Network Pre-
 
 ## What is SNP-S3?
 
-SNP-S3 is a framework for learning cross-modal video representations by directly pre-training on raw data to facilitate various downstream video-text tasks. The main contributions of SNP-S3 lie in the pre-training framework and proxy tasks.
+SNP-S3 is a framework for learning cross-modal video representations by directly pre-training on raw data to facilitate various downstream video-text tasks. 
+
+The main contributions of SNP-S3 lie in the pre-training framework and proxy tasks.
 
 * SNP-S3 proposes Shared Network Pre-training (SNP). By employing one shared BERT-type network to refine textual and cross-modal features simultaneously, SNP is lightweight and could support various downstream applications.
 * SNP-S3 proposes the Significant Semantic Strengthening (S3) strategy, which includes a novel masking and matching proxy task to promote the pre-training performance.
