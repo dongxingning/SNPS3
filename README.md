@@ -22,6 +22,7 @@ The main contributions of SNP-S3 lie in the pre-training framework and proxy tas
 Check [CODEBASE_cn.md (中文)](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_cn.md) or [CODEBASE_en.md (English)](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_en.md) for instructions of codebase downloading and model pre-training (SNP-S3).
 
 ## Citation
+```
 @ARTICLE{10214396,
   author={Dong, Xingning and Guo, Qingpei and Gan, Tian and Wang, Qing and Wu, Jianlong and Ren, Xiangyuan and Cheng, Yuan and Chu, Wei},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
@@ -30,6 +31,6 @@ Check [CODEBASE_cn.md (中文)](https://github.com/alipay/Ant-Multi-Modal-Framew
   volume={},
   number={},
   pages={1-1},
-  keywords={Task analysis;Visualization;Feature extraction;Semantics;Training;Transformers;Electronic mail;Video-Text Pre-training;Vision and Language;Masked Language Modeling;Video-Text Matching},
   doi={10.1109/TCSVT.2023.3303945}
 }
+```
