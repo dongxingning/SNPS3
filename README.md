@@ -1,25 +1,15 @@
-# Shared Network Pre-training and Significant Semantic Strengthening for Various Video-Text Tasks (Pytorch)
+# M2-RAAP: A Multi-Modal Recipe for Advancing Adaptation-based Pre-training towards Effective and Efficient Zero-shot Video-text Retrieval
 
-This repository contains the codebase for our paper [SNP-S3: Shared Network Pre-training and Significant Semantic Strengthening for Various Video-Text Tasks](https://ieeexplore.ieee.org/document/10214396), which has been accepted by TCSVT.
+This repository contains codebase and data annotations for our paper [M2-RAAP: A Multi-Modal Recipe for Advancing Adaptation-based Pre-training towards Effective and Efficient Zero-shot Video-text Retrieval](https://ieeexplore.ieee.org/document/10214396).
 
-## News !!!
+## What is M2-RAAP?
 
-* The codebase are now available at [SNP-S3-VTP](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_en.md).
-* If you have any questions about SNP-S3, it is recommended to raise your questions at [AntMMF](https://github.com/alipay/Ant-Multi-Modal-Framework) project.
+M2-RAAP is a multi-modal recipe for effective and efficient zero-shot video-text retrieval. Specifically, M2-RAAP 1) filters and refines video-text pairs to improve the data quality, 2) adopts key-frames as video inputs to reduce pre-training time, and 3) introduces temporal modeling and video feature enhancement to promote pre-training performance. Compared with the baselines, M2-RAAP employs only 10% of data volume (10M -> 1M) and consumes only 5% of pre-training time (1920h -> 92h), reaching a new SOTA on four English downstream zero-shot video-text retrieval datasets and two Chinese ones.
 
-## What is SNP-S3?
-
-SNP-S3 is a framework for learning cross-modal video representations by directly pre-training on raw data to facilitate various downstream video-text tasks. 
-
-The main contributions of SNP-S3 lie in the pre-training framework and proxy tasks.
-
-* SNP-S3 proposes Shared Network Pre-training (SNP). By employing one shared BERT-type network to refine textual and cross-modal features simultaneously, SNP is lightweight and could support various downstream applications.
-* SNP-S3 proposes the Significant Semantic Strengthening (S3) strategy, which includes a novel masking and matching proxy task to promote the pre-training performance.
-* Experiments conducted on three downstream video-text tasks and six datasets demonstrate that, SNP-S3 achieves a satisfactory balance between the pre-training efficiency and the fine-tuning performance.
 
 ## Codebase
 
-Check [CODEBASE_cn.md (中文)](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_cn.md) or [CODEBASE_en.md (English)](https://github.com/alipay/Ant-Multi-Modal-Framework/blob/main/prj/snps3_vtp/CODEBASE_en.md) for instructions of codebase downloading and model pre-training (SNP-S3).
+We are preparing codebase and data annotations, which will be available soon.
 
 ## Citation
 
